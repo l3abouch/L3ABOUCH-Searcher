@@ -1,0 +1,57 @@
+{
+  "platforms": [
+    {
+      "name": "Facebook",
+      "query": "\"{phone}\" site:facebook.com"
+    },
+    {
+      "name": "Instagram",
+      "query": "\"{phone}\" site:instagram.com"
+    },
+    {
+      "name": "LinkedIn",
+      "query": "\"{phone}\" site:linkedin.com"
+    },
+    {
+      "name": "Twitter/X",
+      "query": "\"{phone}\" site:twitter.com OR site:x.com"
+    },
+    {
+      "name": "GitHub",
+      "query": "\"{phone}\" site:github.com"
+    },
+    {
+      "name": "YouTube",
+      "query": "\"{phone}\" site:youtube.com"
+    },
+    {
+      "name": "TikTok",
+      "query": "\"{phone}\" site:tiktok.com"
+    },
+    {
+      "name": "Truecaller",
+      "query": "\"{phone}\" site:truecaller.com"
+    },
+    {
+      "name": "WhatsApp",
+      "query": "\"{phone}\" site:wa.me OR site:api.whatsapp.com"
+    },
+    {
+      "name": "Pastebin",
+      "query": "\"{phone}\" site:pastebin.com"
+    },
+    {
+      "name": "PDF Files",
+      "query": "\"{phone}\" filetype:pdf"
+    },
+    {
+      "name": "All Web",
+      "query": "\"{phone}\""
+    }
+  ],
+  "search_engine": "https://www.google.com/search?q=",
+  "tab_delay": 0.4,
+  "log_enabled": true,
+  "export_dir": "/home/kali/Desktop/exports",
+  "logs_dir": "/home/kali/Desktop/logs"
+}
